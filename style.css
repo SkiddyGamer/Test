@@ -1,0 +1,42 @@
+button {
+    background-color: yellowgreen;
+    transition: ease-out, 0.5s;
+    height: 30px;
+    width: 90px;
+    top: 20px;
+    right: 20px;
+    padding: 5px;
+    position: absolute;
+    display: inline-block;
+    margin-right: 10px;
+}
+button:hover {
+    background-color: orange;
+    transition: ease-in, 0.5s;
+    height: 90px;
+    width: 150px;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color:blanchedalmond;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+
+nav li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
